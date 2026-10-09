@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Seven-step workflow">
+  <rect width="640" height="360" fill="#e8f1f2"/>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#1c2430" text-anchor="middle">
+    <g fill="#ffffff" stroke="#1f5f6b" stroke-width="1.5">
+      <rect x="30" y="60" width="130" height="56" rx="10"/><rect x="255" y="60" width="130" height="56" rx="10"/><rect x="480" y="60" width="130" height="56" rx="10"/>
+      <rect x="480" y="152" width="130" height="56" rx="10"/>
+      <rect x="480" y="244" width="130" height="56" rx="10"/><rect x="255" y="244" width="130" height="56" rx="10"/><rect x="30" y="244" width="130" height="56" rx="10"/>
+    </g>
+    <g stroke="#1f5f6b" stroke-width="2" fill="none"><path d="M160 88h95M385 88h95M545 116v36M545 208v36M480 272h-95M255 272h-95"/></g>
+    <text x="95" y="82" font-weight="700">1 Reconcile</text><text x="95" y="100" fill="#566070">patient data</text>
+    <text x="320" y="82" font-weight="700">2 Check data</text><text x="320" y="100" fill="#566070">quality &amp; identity</text>
+    <text x="545" y="82" font-weight="700">3 Estimate</text><text x="545" y="100" fill="#566070">30-day risk</text>
+    <text x="545" y="174" font-weight="700">4 Present to</text><text x="545" y="192" fill="#566070">clinicians</text>
+    <text x="545" y="266" font-weight="700">5 Clinical</text><text x="545" y="284" fill="#566070">review</text>
+    <text x="320" y="266" font-weight="700">6 Document</text><text x="320" y="284" fill="#566070">decisions</text>
+    <text x="95" y="266" font-weight="700">7 Monitor</text><text x="95" y="284" fill="#566070">KPIs</text>
+    <text x="320" y="190" font-size="15" fill="#1f5f6b" font-weight="700">Human-governed AI decision support</text>
+  </g>
+</svg>

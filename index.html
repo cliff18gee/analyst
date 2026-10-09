@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ===== SEO / SHARING — edit these easily ===== -->
+  <title>Dr Cliff Gyekye Duah | Health Tech Business Analyst</title>
+  <meta name="description" content="Portfolio of Dr Cliff Gyekye Duah — Medical Doctor and Health Tech Business Analyst bridging healthcare and business through requirements analysis, process improvement and data-informed solutions.">
+  <meta name="author" content="Dr Cliff Gyekye Duah">
+  <meta name="theme-color" content="#1f5f6b">
+  <!-- After deploying, replace the URL below with your live site address -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dr Cliff Gyekye Duah | Health Tech Business Analyst">
+  <meta property="og:description" content="Bridging Healthcare and Business Through Insightful Analysis and Innovative Solutions.">
+  <meta property="og:image" content="assets/images/profile.jpg">
+  <meta property="og:url" content="[YOUR LIVE SITE URL]">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Dr Cliff Gyekye Duah | Health Tech Business Analyst">
+  <meta name="twitter:description" content="Bridging Healthcare and Business Through Insightful Analysis and Innovative Solutions.">
+  <meta name="twitter:image" content="assets/images/profile.jpg">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+
+  <!-- Fonts (change here AND in assets/css/style.css) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    /* Set theme before paint to avoid a flash */
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("theme"); } catch (e) {}
+      if (!t) t = window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Icons -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-in" viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></symbol>
+    <symbol id="i-gh" viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.34.96.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></symbol>
+  </svg>
+
+  <header class="nav">
+    <div class="container">
+      <a href="#home" class="brand" data-bind="name">Dr Cliff Gyekye Duah</a>
+      <nav id="primary-nav" class="nav-links" aria-label="Primary">
+        <a class="link" href="#home">Home</a>
+        <a class="link" href="#about">About</a>
+        <a class="link" href="#experience">Experience</a>
+        <a class="link" href="#skills">Skills</a>
+        <a class="link" href="#projects">Projects</a>
+        <a class="link" href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button type="button" class="btn secondary" id="nav-cv" style="padding:8px 14px">View CV</button>
+        <a class="icon-btn social-nav" data-bind-href="linkedin" href="https://www.linkedin.com/in/dr-cliff-gyekye-d/" target="_blank" rel="noopener" aria-label="LinkedIn (opens in new tab)"><svg viewBox="0 0 24 24" style="fill:currentColor;stroke:none"><use href="#i-in"/></svg></a>
+        <a class="icon-btn social-nav" data-bind-href="github" href="https://github.com/cliff18gee" target="_blank" rel="noopener" aria-label="GitHub (opens in new tab)"><svg viewBox="0 0 24 24" style="fill:currentColor;stroke:none"><use href="#i-gh"/></svg></a>
+        <button type="button" class="icon-btn" id="theme-toggle" aria-label="Toggle dark and light theme">
+          <svg class="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+          <svg class="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+        <button type="button" class="icon-btn menu-btn" id="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+          <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Healthcare Business Analysis</p>
+          <h1 id="hero-title" data-bind="name">Dr Cliff Gyekye Duah</h1>
+          <p class="role">Health Tech Business Analyst &nbsp;|&nbsp; Medical Doctor &nbsp;|&nbsp; Data Improvement Analyst</p>
+          <p class="tagline" data-bind="tagline">Bridging Healthcare and Business Through Insightful Analysis and Innovative Solutions</p>
+          <p class="desc">I combine clinical practice with structured business analysis — requirements, process improvement, stakeholder engagement and data-informed decision-making — to turn real healthcare needs into practical solutions.</p>
+          <div class="btn-row">
+            <a class="btn" href="#projects">View Projects</a>
+            <button type="button" class="btn secondary" id="hero-cv">View CV</button>
+          </div>
+          <div class="socials">
+            <a class="social-link" data-bind-href="linkedin" href="https://www.linkedin.com/in/dr-cliff-gyekye-d/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-in"/></svg>LinkedIn</a>
+            <a class="social-link" data-bind-href="github" href="https://github.com/cliff18gee" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-gh"/></svg>GitHub</a>
+          </div>
+          <div class="stats">
+            <div class="stat"><strong data-bind="yearsExperience">7+</strong><span>Years in healthcare</span></div>
+            <div class="stat"><strong>2</strong><span>Featured projects</span></div>
+            <div class="stat"><strong data-bind="location" style="font-size:1.15rem;line-height:1.7">Cambridgeshire, UK</strong><span>Based in</span></div>
+          </div>
+        </div>
+        <div class="portrait">
+          <img src="assets/images/profile.jpg" width="266" height="332" alt="Portrait of Dr Cliff Gyekye Duah in a dark suit and red tie">
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="alt" id="about" aria-labelledby="about-title">
+      <div class="container reveal">
+        <p class="eyebrow">About</p>
+        <h2 class="section-title" id="about-title">Clinical insight, structured analysis</h2>
+        <div class="about-grid">
+          <div>
+            <p>I am a Medical Doctor and Healthcare Business Analyst with a strong foundation in clinical practice, analytical problem-solving, data analysis and healthcare operations.</p>
+            <p>My approach is to translate clinical and operational needs into practical, evidence-based solutions that support informed decisions, improve business processes and strengthen healthcare service delivery. My business analysis skills are developing across requirements elicitation, stakeholder engagement, process mapping, As-Is and To-Be analysis, gap analysis, user stories and impact analysis.</p>
+            <p>Clinical practice has given me strong skills in critical thinking, interpreting complex information, multidisciplinary collaboration and managing competing priorities in demanding environments. These help me understand stakeholder needs, assess existing processes and contribute to solutions that balance operational requirements with the needs of healthcare professionals and patients.</p>
+            <p>My goal is to bridge the gap between clinical teams, business stakeholders and technology — combining medical knowledge with structured analysis to support effective change and sustainable improvements in patient outcomes.</p>
+          </div>
+          <aside class="focus-card" aria-label="Areas of interest">
+            <h3>Areas of focus</h3>
+            <ul>
+              <li>Healthcare transformation</li>
+              <li>Requirements analysis</li>
+              <li>Process optimisation</li>
+              <li>Data-driven decision-making</li>
+              <li>Operational efficiency and patient outcomes</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section id="experience" aria-labelledby="exp-title">
+      <div class="container">
+        <div class="reveal">
+          <p class="eyebrow">Experience</p>
+          <h2 class="section-title" id="exp-title">Where I have worked</h2>
+          <p class="section-intro">Business analysis in health technology, built on nearly nine years of frontline clinical practice.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- JOB 1 -->
+          <article class="job reveal">
+            <div class="job-head">
+              <div>
+                <h3>HealthTech Business Analyst</h3>
+                <div class="company">Amdari Inc.</div>
+              </div>
+              <div class="dates">2026 – Present &nbsp;·&nbsp; <span class="placeholder">[INSERT LOCATION OR REMOTE]</span></div>
+            </div>
+            <p class="summary">Combining healthcare knowledge, analytical thinking and business analysis principles to understand healthcare challenges and support technology-enabled solutions — connecting healthcare stakeholders, business requirements and technology.</p>
+            <h4>Contributions</h4>
+            <ul class="bullets">
+              <li>Applied nearly nine years of clinical experience to bring a healthcare professional's perspective to business analysis and technology-enabled improvement.</li>
+              <li>Developed a multidisciplinary perspective combining clinical practice, healthcare operations, leadership and business analysis.</li>
+              <li>Built on experience managing complex clinical situations to strengthen problem identification, requirements understanding and structured decision-making.</li>
+            </ul>
+            <h4>Responsibilities</h4>
+            <ul class="bullets">
+              <li>Identify and analyse healthcare business problems, stakeholder needs and opportunities for process improvement.</li>
+              <li>Support requirements elicitation and analysis, translating business needs into clear, structured requirements.</li>
+              <li>Apply clinical and operational knowledge to healthcare workflows, patient pathways and service delivery challenges.</li>
+              <li>Contribute to business requirements, user stories, process analysis and gap analysis where applicable to project needs.</li>
+              <li>Analyse existing processes to improve efficiency, data quality and service delivery.</li>
+            </ul>
+            <div class="impact"><strong>Business impact</strong>Brings clinical insight into healthcare technology and business analysis, helping bridge the gap between healthcare needs and business or technical solutions — supporting clearer requirements and solutions designed to enhance operational efficiency and patient outcomes.</div>
+            <!-- Tools used at Amdari: add them here once confirmed -->
+            <p class="note"><span class="placeholder">[ADD TOOLS USED AT AMDARI INC.]</span></p>
+          </article>
+
+          <!-- JOB 2 -->
+          <article class="job reveal">
+            <div class="job-head">
+              <div>
+                <h3>Medical Doctor</h3>
+                <div class="company">NHS hospitals</div>
+              </div>
+              <div class="dates">2017 – Present</div>
+            </div>
+            <p class="summary">Nearly nine years of clinical experience managing patients with acute and complex conditions across general medicine and other specialties, with strong grounding in evidence-based decision-making, multidisciplinary collaboration, prioritisation and process coordination.</p>
+            <ul class="sub-roles" aria-label="Clinical roles">
+              <li><span><strong>Resident Medical Officer</strong> — Aintree University Hospital, Liverpool</span><span class="when">Oct 2025 – Present</span></li>
+              <li><span><strong>Specialty Registrar (ad-hoc locum), Rehabilitation Medicine</strong> — Various NHS Trusts</span><span class="when">Aug 2025</span></li>
+              <li><span><strong>Senior House Officer / Bank Doctor, General Medicine</strong> — Hinchingbrooke Hospital, North West Anglia NHS Trust</span><span class="when">Aug 2019 – Present (part-time since Sep 2025)</span></li>
+              <li><span><strong>Foundation Year 2 Doctor (ENT &amp; A&amp;E)</strong> — Brighton and Sussex University Hospitals</span><span class="when">Aug 2018 – Aug 2019</span></li>
+              <li><span><strong>Foundation Year 1 Doctor</strong> — QEQM &amp; Canterbury Hospital, Kent</span><span class="when">Aug 2017 – Jul 2018</span></li>
+            </ul>
+            <h4>Contributions</h4>
+            <ul class="bullets">
+              <li>Built broad understanding of healthcare systems, patient pathways and service delivery across medical and surgical settings.</li>
+              <li>Developed leadership and team coordination experience through ward rounds, clinical discussions and multidisciplinary patient management.</li>
+              <li>Analysed clinical information, investigations and histories to support evidence-based decisions, and supported continuity of care through clear communication and documentation.</li>
+              <li>Managed competing clinical priorities while maintaining attention to detail, patient safety and professional standards.</li>
+            </ul>
+            <div class="impact"><strong>Transferable value</strong>Practical understanding of healthcare workflows, patient needs, operational pressures and clinical risk — insight that helps ensure proposed changes reflect real clinical needs and patient safety considerations.</div>
+          </article>
+        </div>
+
+        <div class="reveal">
+          <h3 style="font-size:1.2rem;margin-top:12px">Education &amp; leadership</h3>
+          <div class="edu">
+            <div><strong>MSc Skin Ageing and Aesthetic Medicine</strong><span>University of Manchester · 2019–2022</span></div>
+            <div><strong>Executive Leadership Programme (Distinction)</strong><span>University of Oxford · 2021</span></div>
+            <div><strong>MBBCh, Medicine &amp; Surgery</strong><span>Cardiff School of Medicine · 2010–2017</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="reveal">
+          <p class="eyebrow">Core competencies</p>
+          <h2 class="section-title" id="skills-title">What I know</h2>
+          <p class="section-intro">The analytical toolkit I bring to healthcare change, alongside clinical knowledge.</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <h3><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h10M4 18h14"/><circle cx="19" cy="12" r="2"/></svg>Business Analysis</h3>
+            <ul class="tags">
+              <li>Requirements Elicitation and Analysis</li><li>Stakeholder Engagement and Consultation</li><li>Business Requirements Documentation (BRD)</li><li>User Stories and Use Cases</li><li>As-Is and To-Be Process Analysis</li><li>Gap Analysis</li><li>Business Problem Identification and Scope Definition</li><li>Impact Analysis</li><li>Process Mapping and Process Improvement</li><li>Business Needs Assessment</li><li>Solution Assessment and Recommendations</li><li>Business Process Optimisation</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Data &amp; Analytics</h3>
+            <ul class="tags">
+              <li>Data Analysis and Interpretation</li><li>Evidence-Based Decision-Making</li><li>Healthcare Data Interpretation</li><li>Data Quality Assessment and Validation</li><li>Trends, Patterns and Improvement Opportunities</li><li>Clinical and Operational Performance Analysis</li><li>KPI Identification and Performance Measurement</li><li>Analytical Problem-Solving</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3><svg viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.4 2.4-2.4-.6-.6-2.4z"/></svg>Tools</h3>
+            <ul class="tags">
+              <li>Microsoft Excel</li><li>Microsoft Word</li><li>Microsoft PowerPoint</li><li>Microsoft Visio (or equivalent process-mapping tools)</li><li>Microsoft Power BI</li><li>Microsoft Teams</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3><svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="12" r="2"/><circle cx="6" cy="18" r="2"/><path d="M8 6h5a3 3 0 0 1 3 3v1M8 18h5a3 3 0 0 0 3-3v-1"/></svg>Methodologies</h3>
+            <ul class="tags">
+              <li>Requirements Elicitation and Validation</li><li>As-Is and To-Be Analysis</li><li>Gap Analysis</li><li>Process Mapping and Workflow Analysis</li><li>Root Cause Analysis</li><li>Agile Business Analysis Principles</li><li>Waterfall Project Approach</li><li>User Stories and Acceptance Criteria</li><li>Continuous Improvement</li><li>Evidence-Based Analysis</li><li>Stakeholder Analysis</li>
+            </ul>
+          </div>
+          <div class="skill-card reveal" style="grid-column: 1 / -1">
+            <h3><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9-9a5 5 0 0 1 9-3 5 5 0 0 1 9 3c-2 4.5-9 9-9 9z"/></svg>Healthcare &amp; Professional Skills</h3>
+            <ul class="tags">
+              <li>Clinical Knowledge and Healthcare Operations</li><li>Critical Thinking and Analytical Reasoning</li><li>Multidisciplinary Team Collaboration</li><li>Communication and Stakeholder Management</li><li>Problem-Solving and Decision-Making</li><li>Understanding of Patient Pathways and Clinical Workflows</li><li>Attention to Detail and Data Accuracy</li><li>Managing Competing Priorities</li><li>Report Writing and Documentation</li><li>Change Management Awareness</li><li>Healthcare Service Improvement</li><li>Translating Clinical Needs into Business Requirements</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="reveal">
+          <p class="eyebrow">Project showcase</p>
+          <h2 class="section-title" id="projects-title">Problems I have analysed</h2>
+          <p class="section-intro">Each case study follows the same path: business problem, objective, approach, analysis, findings, recommendations, outcome and business impact.</p>
+        </div>
+        <div class="projects-grid">
+
+          <article class="project-card reveal">
+            <img src="assets/images/project-01.svg" width="640" height="360" loading="lazy" alt="Illustration of a seven-step AI-assisted discharge and follow-up workflow">
+            <div class="project-body">
+              <p class="category">HealthTech | AI | Business Analysis</p>
+              <h3>POD Orion — AI-Enabled Readmission Decision Support</h3>
+              <p>A human-governed AI-enabled healthcare solution concept designed to support readmission risk assessment, discharge planning and post-discharge follow-up.</p>
+              <p class="skills-label">Key skills</p>
+              <ul class="tags">
+                <li>Requirements Analysis</li><li>Process Mapping</li><li>Gap Analysis</li><li>Healthcare Workflows</li><li>AI Governance</li><li>KPI Design</li>
+              </ul>
+              <a class="btn" href="projects/pod-orion.html">View Project</a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <img src="assets/images/project-02.svg" width="640" height="360" loading="lazy" alt="Illustration of lying and standing blood pressure measurement at 1, 3 and 5 minutes">
+            <div class="project-body">
+              <p class="category">Quality Improvement | Clinical Audit | Patient Safety</p>
+              <h3>Improving Lying and Standing Blood Pressure Measurement Compliance</h3>
+              <p>A multi-ward hospital improvement initiative designed to standardise blood pressure measurement practice and strengthen compliance with clinical guidance.</p>
+              <p class="skills-label">Key skills</p>
+              <ul class="tags">
+                <li>Clinical Audit</li><li>Baseline Assessment</li><li>Gap Analysis</li><li>Process Improvement</li><li>KPI Design</li><li>Staff Engagement</li><li>Patient Safety</li>
+              </ul>
+              <a class="btn" href="projects/bp-compliance.html">View Project</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="alt" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <p class="eyebrow">Contact</p>
+          <h2 class="section-title" id="contact-title">Let's talk</h2>
+          <p class="section-intro" style="margin-bottom:1.4rem">Open to conversations about healthcare business analysis, transformation and data improvement.</p>
+          <ul class="contact-list">
+            <li><span>Email</span><a data-bind-mailto="email" data-bind="email" href="mailto:cliffduah@googlemail.com">cliffduah@googlemail.com</a></li>
+            <li><span>Phone</span><a data-bind-tel="phone" data-bind="phone" href="tel:07961545433">07961545433</a></li>
+            <li><span>Location</span><b data-bind="location">Cambridgeshire, UK</b></li>
+            <li><span>LinkedIn</span><a data-bind-href="linkedin" href="https://www.linkedin.com/in/dr-cliff-gyekye-d/" target="_blank" rel="noopener">linkedin.com/in/dr-cliff-gyekye-d</a></li>
+            <li><span>GitHub</span><a data-bind-href="github" href="https://github.com/cliff18gee" target="_blank" rel="noopener">github.com/cliff18gee</a></li>
+          </ul>
+        </div>
+
+        <!-- Formspree form: works with or without JavaScript -->
+        <form class="contact reveal" id="contact-form" action="https://formspree.io/f/xeaekogw" method="POST" novalidate>
+          <div class="field">
+            <label for="name">Name <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+            <div class="error-msg" id="name-err">Please enter your name.</div>
+          </div>
+          <div class="field">
+            <label for="email">Email <span class="req" aria-hidden="true">*</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+            <div class="error-msg" id="email-err">Please enter a valid email address.</div>
+          </div>
+          <div class="field">
+            <label for="subject">Subject <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="subject" name="subject" required>
+            <div class="error-msg" id="subject-err">Please enter a subject.</div>
+          </div>
+          <div class="field">
+            <label for="message">Message <span class="req" aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" required></textarea>
+            <div class="error-msg" id="message-err">Please enter a message.</div>
+          </div>
+          <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn" type="submit" id="submit-btn">Send message</button>
+          <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <span>© <span id="year"></span> <span data-bind="name">Dr Cliff Gyekye Duah</span></span>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- CV viewer: shows the PDF on the page (no download prompt) -->
+  <dialog class="cv-dialog" id="cv-dialog" aria-label="Curriculum vitae">
+    <div class="cv-bar">
+      <strong>Curriculum Vitae</strong>
+      <div class="right">
+        <a class="btn secondary" style="padding:6px 12px;font-size:.85rem" id="cv-newtab" href="assets/documents/CV.pdf" target="_blank" rel="noopener">Open in new tab</a>
+        <button type="button" class="icon-btn" id="cv-close" aria-label="Close CV"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      </div>
+    </div>
+    <iframe class="cv-frame" id="cv-frame" title="Curriculum vitae PDF" loading="lazy"></iframe>
+    <div class="cv-fallback">If the CV does not display on your device, use “Open in new tab”.</div>
+  </dialog>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
