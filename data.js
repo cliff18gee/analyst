@@ -13,6 +13,6 @@ const portfolioData = {
   phone: "07961545433",
   linkedin: "https://www.linkedin.com/in/dr-cliff-gyekye-d/",
   github: "https://github.com/cliff18gee",
-  resume: "assets/documents/CV.pdf",
+  resume: "assets/documents/Cliff-Gyekye-Duah-CV-2026.pdf?v=20261113",
   formspreeEndpoint: "https://formspree.io/f/xeaekogw"
 };
